@@ -1,0 +1,97 @@
+<HTML>
+    <head>
+        <title>PandaBlog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="head" class="header">
+            <img src="Картинки/4.jpg" class="logo">
+            <div class="header_text">
+                <h1 class="title_text">PandaBlog</h1>
+                <span>Специально для любителей панд</span>
+            </div>
+        </section>
+        <hr>
+
+        <nav class="header_navbar">
+            <a href="#head" class="header_navbar__item">Главная</a>
+            <a href="#post" class="header_navbar__item">Последний добавленный пост</a> 
+            <a href="#comments" class="header_navbar__item">Комментарии</a>
+            <a href="#comment_form" class="header_navbar__item">Оставить свой комментарий</a>                   
+            <a href="#footer" class="header_navbar__item">О нас</a>
+        </nav>
+        <hr>
+
+        <section class="content">
+            <div id="post" class="post">
+                <h1 class="post_title">Красная и большая панды - родственники или нет?</h1>
+                <span class="post_info">вторник, 2 марта 2021г.</span>
+                <br>
+                <img src="Картинки/10.jpg" alt="" class="post_image">
+                <p class="addition">Когда-то красная панда, как и большая, принадлежала к семейству медвежьих. Однако зверек обладает признаками, которые дают возможность отнести его и к собачьим, и к енотовым, и даже к куньим.</p>
+
+                <p class="post_text">Несмотря на название, красная панда не является близким родственником Большой панды, всем известного бамбукового медведя и символа Китая. Да, у этих животных есть общий предок, но жил он несколько миллионов лет назад. Большая и малая панды даже относятся к разным семействам.
+
+                    <br>Для красной панды долгое время не могли найти место в международной классификации животных. Сейчас этот зверек принадлежит к семейству Пандовых, в которое включены 2 вида: китайские и гималайские панды; остальные представители Пандовых вымерли.
+
+                    <br>Ученые предполагают, что дальний предок малой панды мог жить еще в эпоху миоцена. Это период, который начался 23 миллиона лет назад, а завершился 5 миллионов лет назад.
+    
+                    <br>Раньше ареал обитания этих животных был намного шире. Зверьков из семейства Пандовых можно было встретить во многих областях материка Евразия, ископаемые останки малой панды обнаружены исследователями даже в Великобритании, следы ее существования замечены и в Северной Америке.
+    
+                </p>
+                <p class="post_info" style="text-align: right">RedBook</p>                
+            </div>
+            <u><hr></u>
+
+            <img src="Картинки/5.jpg" class="com_image">
+            <div class="comments">                
+                <h1 id="comments" class="comments_title">Комментарии</h1>
+                <hr>
+                <div class="comments__item">
+                    <span class="post_info">Александр В.</span>
+                    <p class="comments_text">Всю жизнь думал, что большие и малые панды довольно близки в классификации, а оно вот как оказывается... Спасибо за информацию!</p>
+                    <span class="post_info">3 марта 2021г.</span>
+                </div>
+                <hr>
+                <div class="comments__item">
+                    <span class="post_info">Наталья Д.</span>
+                    <p class="comments_text">Это рыжее животное - панда?! Да быть такого не может!!!</p>
+                    <span class="post_info">3 марта 2021г.</span>
+                </div>
+                <hr>
+                <div class="comments__item"></div>
+                <span class="post_info">Вячеслав Н.</span>
+                <p class="comments_text">Как же я люблю панд! Спасибо за новую информацию))</p>
+                <span class="post_info">4 марта 2021г.</span>
+                <hr>
+                <div id="comment_form" class="comment_form">
+                    <form >
+                        <p class="comment_form__input">
+                            <label for="name">Имя (обязательное поле):</label>
+                            <input type="text" placeholder="Ваше имя" required id = "name" name = "name">
+                        </p>
+                        <p class="comment_form__input">
+                            <label for="email">e-mail:</label>
+                            <input type="text" placeholder="example@mail.com" id = "email" name = "email">
+                        </p>
+                        <p class="comment_form__input">
+                            <label for="site">Личный сайт:</label>
+                            <input type="text" placeholder="Ваш сайт" id = "site" name = "site">
+                        </p>
+                        <p class="comment_form__input">
+                            <label for="site">Текст комментария (обязательное поле):</label>
+                            <textarea placeholder="Ваш комментарий" name="comment" required id="comment" cols="30" rows="10"></textarea>
+                        </p>
+                        <button class="submit__button" type="submit">Опубликовать комментарий</button>   
+                    </form>    
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="footer" class="footer">
+            <p>&#169; Copyright, 2021</p>
+            <p><i>Любые совпадения с реальными людьми или сайтами совершенно случайны</i></p>
+        </section>
+    </body>
+</HTML>
